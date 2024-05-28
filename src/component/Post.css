@@ -1,0 +1,35 @@
+.Form-header{
+    color: #f7f7f7;
+    text-align: center;
+  }
+
+  .Form-todo-label{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    color: #f7f7f7;
+    padding: 13px;
+    border: 1px solid #54357c;
+    border-radius: 10px;
+    margin: 0 10px 30px 10px;
+    text-decoration: none;
+    word-break: break-word;
+  }
+
+  .Form-icon{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Form-icon:hover{
+    cursor: pointer;
+  }
+  
+  .Form-icon-trash{
+    margin-left: 20px;
+    color: rgb(165, 60, 60);
+  }
+  .Form-icon-check{
+    margin-left: 20px;
+    color: rgb(55, 151, 55);
+  }

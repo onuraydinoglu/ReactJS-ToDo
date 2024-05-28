@@ -1,0 +1,56 @@
+.App-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #f7f7f7;
+  }
+  
+  .Header {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: 'Racing Sans One';
+  }
+  
+  .Header::before,
+  .Header::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 20%; 
+      border-bottom: 1.5px solid #f7f7f7;
+  }
+  
+  .Header::before {
+      right: 100%;
+      margin-right: 10px;
+  }
+  .Header::after {
+      left: 100%;
+      margin-left: 10px;
+  }
+  .Header-icon{
+    position: relative;
+    font-size: 1.5rem;
+    color: #f7f7f7;
+    margin-top: -20px;
+  }
+  
+  .Header-icon::before,
+  .Header-icon::after{
+    content: '';
+    position: absolute;
+    top: 55%;
+    width: 300px;
+    border-bottom: 1.5px solid #f7f7f7;
+  }
+  .Header-icon::before {
+      right: 100%;
+      margin-right: 20px;
+  }
+  .Header-icon::after {
+      left: 100%;
+      margin-left: 20px;
+  }
